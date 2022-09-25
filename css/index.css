@@ -1,0 +1,216 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+
+  display: inline-block;
+  background-color: #cdd9dfec;
+  width: 100%;
+
+}
+
+/* barra de navegacion */
+.nav-bar {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Righteous';
+  flex-direction: row;
+  position: relative;
+  color: rgb(0, 0, 0)
+}
+
+/* Carrusel */
+
+section {
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+
+.textoCar {
+  color: rgba(17, 1, 238, 0.781);
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.textoCar2 {
+  color: rgb(223, 160, 160);
+  font-family: 'Bebas Neue';
+  font-weight: initial;
+  font-size: 2rem;
+}
+
+.descripcion1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Aref Ruqaa Ink', serif;
+
+}
+
+.descripcion2 {
+  font-family: 'Aref Ruqaa Ink', serif;
+  text-align: justify;
+
+}
+
+
+/* Cuerpo de página */
+
+.cuerpoPagina {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.cont {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid #e48a8a;
+  background-color: rgba(233, 181, 181, 0.726);
+}
+
+
+
+.more {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(47, 0, 255);
+}
+
+.complete {
+  display: none;
+}
+
+input.showmore {
+  display: none;
+}
+
+input.showmore~label.more span.menos {
+  display: none;
+}
+
+input.showmore:checked+.complete {
+  display: block;
+}
+
+input.showmore:checked~label.more span.mas {
+  display: none;
+}
+
+input.showmore:checked~label.more span.menos {
+  display: inline;
+}
+
+/* Whatsapp */
+
+.float {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 30px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+.my-float {
+  margin-top: 1px;
+}
+
+/* Boton de volver arriba */
+
+.botonUp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 40px;
+  font-size: 30px;
+}
+
+.botonUp:hover {
+  text-decoration: none;
+  color: #070707;
+
+}
+
+.my-botonUp {
+  margin-top: 1px;
+}
+
+/* footer */
+
+footer {
+  bottom: auto;
+  width: 100%;
+  margin-top: 0;
+  position: absolute;
+}
+
+.pie {
+  background-color: #000000;
+}
+
+.textoPie {
+  color: rgb(52, 148, 212);
+  font-size: 30px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+a.sin {
+  text-decoration: none;
+  color: rgb(52, 148, 212);
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+a:hover.sin {
+  color: rgb(15, 13, 117);
+  font-family: impact;
+}
+
+
+/* Nosotros y Contacto*/
+
+.nosotros{
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.contactenos {
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.contacto {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Aref Ruqaa Ink', serif;
+  color: #999;
+}
+
+.inputContacto {
+  background-color: rgb(190, 190, 190);
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Aref Ruqaa Ink', serif;
+}
