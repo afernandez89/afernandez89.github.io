@@ -27,8 +27,11 @@ body {
 
 /* Carrusel */
 
+.filter{
+  filter: brightness(60%);
+}
+
 section {
-  padding-top: 0.2rem;
   padding-bottom: 3rem;
 }
 
