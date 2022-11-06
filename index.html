@@ -68,6 +68,11 @@
                         </ul>
                     </li>
                 </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link btn ticket" href="ticket.html">Comprar tickets</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -154,18 +159,16 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title descripcion2"><b>Argentina</b></h5>
-                        <p class="card-text summary descripcion2">Dotada de un inmenso territorio con grandes
-                            atracciones turísticas, una variedad de climas enorme, maravillas naturales, cultura, costumbres y gastronomías famosas a nivel internacional, un grado de desarrollo muy alto, buena calidad de vida y una infraestructura bien preparada, la Argentina es receptora de masivas cantidades de viajeros.</p>
-                        <input id="showmore_1" type="checkbox" class="showmore">
-                        <span class="complete descripcion2">
-                            <p>El país presenta toda la gama de climas posibles: templado, cálido seco, cálido húmedo, frío seco, frío húmedo, semiárido, estepario, subantártico, subtropical, frío de montaña y una enorme variedad de microclimas. El territorio argentino se extiende desde las más elevadas cumbres de los Andes en el oeste hacia los grandes ríos y las extensas playas y acantilados del Mar argentino en el este, desde la selva tropical de las yungas al norte hasta los valles, glaciares, lagos y bosques fríos de la Patagonia Andina en el sur hasta la Antártida. Las gigantescas distancias exigen en la mayoría de los casos viajes en avión.</p>
-                        </span>
-                        <label for="showmore_1" class="more"><span class="mas">[+]</span> <span class="menos">[-]</span></label>
+                        <p class="card-text summary descripcion2">Dotada de un inmenso territorio con grandes atracciones turísticas, una variedad de climas enorme, maravillas naturales, cultura, costumbres y gastronomías famosas a nivel internacional, un grado de desarrollo muy alto, buena calidad de vida y una infraestructura bien preparada, la Argentina es receptora de masivas cantidades de viajeros.
+                        <a class="botonMas" onclick="vermas('mas');" id="mas">Leer más</a></p>
+                        <p id="desplegar" style="display:none;">El país presenta toda la gama de climas posibles: templado, cálido seco, cálido húmedo, frío seco, frío húmedo, semiárido, estepario, subantártico, subtropical, frío de montaña y una enorme variedad de microclimas. El territorio argentino se extiende desde las más elevadas cumbres de los Andes en el oeste hacia los grandes ríos y las extensas playas y acantilados del Mar argentino en el este, desde la selva tropical de las yungas al norte hasta los valles, glaciares, lagos y bosques fríos de la Patagonia Andina en el sur hasta la Antártida. Las gigantescas distancias exigen en la mayoría de los casos viajes en avión.
+                        <a class="botonMas" onclick="vermas('menos');" id="menos">Leer menos</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/vermas.js"></script>
 
     <!-- Pie de Pagina-->
     <footer class="mastfoot my-3 pie">
